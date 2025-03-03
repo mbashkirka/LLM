@@ -27,7 +27,7 @@ if __name__ == "__main__":
         for row in reader:
             id_list.append(int(row[0]))
 
-        run_tests_by_id(retrieval_baseline, id_list)
+        """run_tests_by_id(retrieval_baseline, id_list)"""
 
         run_tests_by_id(open_ui, id_list)
 
